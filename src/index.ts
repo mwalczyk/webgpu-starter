@@ -10,10 +10,10 @@ const positions = new Float32Array([
 
 // 🎨 Color Vertex Buffer Data
 const colors = new Float32Array([
-    1.0, 0.0, 0.0, // 🔴
-    0.0, 1.0, 0.0, // 🟢
-    0.0, 0.0, 1.0,  // 🔵
-    0.0, 0.0, 1.0
+    1.0, 0.0, 0.0, 
+    0.0, 1.0, 0.0, 
+    0.0, 0.0, 1.0, 
+    1.0, 1.0, 1.0
 ]);
 
 // 🗄️ Index Buffer Data
@@ -287,6 +287,7 @@ export default class Renderer {
     };
 }
 
+// Start the renderer
 const canvas = document.getElementById('gfx') as HTMLCanvasElement;
 canvas.width = canvas.height = 640;
 const renderer = new Renderer(canvas);
