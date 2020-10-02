@@ -1,4 +1,5 @@
 /// <reference path="../node_modules/@webgpu/types/dist/index.d.ts" />
+// <reference path="../node_modules/gl-matrix/index.d.ts" />
 
 // 📈 Position Vertex Buffer Data
 const positions = new Float32Array([
