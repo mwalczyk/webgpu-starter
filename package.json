@@ -12,10 +12,10 @@
   "devDependencies": {
     "@webgpu/types": "0.0.24",
     "http-server": "^0.12.3",
-    "ts-loader": "^7.0.3",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.8.3",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "dependencies": {
     "gl-matrix": "^3.3.0"
